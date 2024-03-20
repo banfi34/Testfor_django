@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #F2F2F2
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+ ul {
+  list-style: none;
+}
+
+.search-page {
+    justify-content: center;
+    text-align: center;
+}
+
+.search-page p:first-letter {
+    text-transform: capitalize;
+}
+
+.info h4:first-letter {
+  text-transform: capitalize;
+}
+
+.alert {
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+
+.search-button i {
+    color: white;
+    margin-left: 10px;
+}
+
+.search-collapse {
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 4rem;
+    z-index: 99;
+}
+
+.search-collapse .card {
+    margin-top: -2.1rem;
+    border: none;
+    transition: none !important;
+}
+
+.pages .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.pages .card {
+    width: 100%;
+    height: 100%;
+    border: black solid 3px;
+}
+
+.pages .card-header {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.welcome {
+    justify-content: center;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.review footer {
+    margin-top: 0;
+}
+
+.advanced-button {
+    color: black;
+    margin-left: 2px;
+}
+
+.info-collapse .card{
+    margin-bottom: 1rem;
+    transition: none !important;
+}
+
+.advanced-button i {
+    padding-left: 5px;
+}
